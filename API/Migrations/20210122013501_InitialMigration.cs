@@ -16,8 +16,8 @@ namespace API.Migrations
                     Name = table.Column<string>(type: "nvarchar(100)", nullable: false),
                     AddressStreet = table.Column<string>(type: "nvarchar(100)", nullable: false),
                     AddressCity = table.Column<string>(type: "nvarchar(100)", nullable: false),
-                    AddressZip = table.Column<string>(type: "nvarchar(5)", nullable: false),
                     AddressState = table.Column<string>(type: "nvarchar(2)", nullable: false),
+                    AddressZip = table.Column<string>(type: "nvarchar(5)", nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(10)", nullable: false)
                 },
                 constraints: table =>

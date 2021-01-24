@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kVRQv9tc3Vr2+2aF2j5M80nbnx+MYcN9yK0fPzceIb3Lv6JLzGSbiYRFiDWeTW/Lu7+h+PGKslN7sj17kT4NoA==",
+  "dgSpecHash": "MQI+8WThl8B2vi2YpA7aTCiCaqK4GNSZkMnBFh2CveNQPmSur2/sVAUNLbYG62guTVcJCEhLEg9wPs/Khu6Q6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alex_\\source\\repos\\local_business_api\\local_business_api\\API.csproj",
+  "projectFilePath": "C:\\Users\\alex_\\source\\repos\\LocalBusinessAPI\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alex_\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alex_\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

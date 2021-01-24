@@ -1086,11 +1086,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alex_\\source\\repos\\local_business_api\\local_business_api\\API.csproj",
+      "projectUniqueName": "C:\\Users\\alex_\\source\\repos\\LocalBusinessAPI\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\alex_\\source\\repos\\local_business_api\\local_business_api\\API.csproj",
+      "projectPath": "C:\\Users\\alex_\\source\\repos\\LocalBusinessAPI\\API\\API.csproj",
       "packagesPath": "C:\\Users\\alex_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alex_\\source\\repos\\local_business_api\\local_business_api\\obj\\",
+      "outputPath": "C:\\Users\\alex_\\source\\repos\\LocalBusinessAPI\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
