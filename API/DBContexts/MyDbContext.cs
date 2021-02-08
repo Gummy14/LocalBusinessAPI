@@ -27,7 +27,6 @@ namespace API.DBContexts
             modelBuilder.Entity<Business>().HasKey(x => x.Id).HasName("PK_Businesses");
             modelBuilder.Entity<BusinessHours>().HasKey(x => x.Id).HasName("PK_BusinessHours");
             // Configure indexes
-            modelBuilder.Entity<Business>().HasIndex(x => x.Name).IsUnique().HasDatabaseName("Idx_Name");
             modelBuilder.Entity<DayOfTheWeek>().HasIndex(x => x.Weekday).IsUnique().HasDatabaseName("Idx_Weekday");
             // Configure columns
             modelBuilder.Entity<Business>().Property(x => x.Id).HasColumnType("int").UseMySqlIdentityColumn().IsRequired();
@@ -37,7 +36,7 @@ namespace API.DBContexts
             modelBuilder.Entity<Business>().Property(x => x.AddressState).HasColumnType("nvarchar(2)").IsRequired();
             modelBuilder.Entity<Business>().Property(x => x.AddressZip).HasColumnType("nvarchar(5)").IsRequired();
             modelBuilder.Entity<Business>().Property(x => x.AddressCountry).HasColumnType("nvarchar(10)").IsRequired();
-            modelBuilder.Entity<Business>().Property(x => x.PhoneNumber).HasColumnType("nvarchar(10)").IsRequired();
+            modelBuilder.Entity<Business>().Property(x => x.PhoneNumber).HasColumnType("nvarchar(15)").IsRequired();
 
             modelBuilder.Entity<BusinessHours>().Property(x => x.Id).HasColumnType("int").UseMySqlIdentityColumn().IsRequired();
             modelBuilder.Entity<BusinessHours>().Property(x => x.BusinessId).HasColumnType("int").IsRequired();

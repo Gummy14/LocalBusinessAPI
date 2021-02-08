@@ -5,7 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace API.Controllers
 {
@@ -31,6 +35,5 @@ namespace API.Controllers
         {
             return dBContext.Businesses.ToList();
         }
-
     }
 }
